@@ -34,6 +34,7 @@ pipeline {
                     }
                 }   
             }
+        }
         stage('Run image') {
             when {
                 branch 'master'
@@ -55,6 +56,6 @@ pipeline {
                 }
             }
         }
+        
     }
-}
 }
